@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio sobre el pádel: qué es, reglas, la cancha, el circuito profesional y galería.">
+  <title>Inicio · Mi hobby: el pádel</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="index.html"><span class="pelota" aria-hidden="true"></span>Mi hobby: el pádel</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="menu"><ul><li><a href="index.html" aria-current="page">Inicio</a></li><li><a href="el-juego.html">El juego</a></li><li><a href="profesional.html">Circuito profesional</a></li><li><a href="galeria.html">Galería</a></li><li><a href="contacto.html">Contacto</a></li></ul></nav>
+    <button class="tema-btn" id="temaBtn" aria-label="Cambiar tema">🌙</button>
+  </header>
+  <main>
+
+    <section class="hero" style="background-image:linear-gradient(rgba(10,40,20,.55),rgba(10,40,20,.75)),url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Outdoor_padel_court_Mariestad.jpg/1280px-Outdoor_padel_court_Mariestad.jpg')">
+      <h1>El deporte que se juega con las paredes</h1>
+      <p>Un sitio sobre mi hobby favorito: qué es el pádel, cómo se juega, cómo es la cancha y qué está pasando en el circuito profesional.</p>
+      <a class="boton" href="el-juego.html">Conoce el juego</a>
+    </section>
+
+    <section class="tarjetas">
+      <a class="tarjeta" href="el-juego.html"><h3>🎾 El juego</h3><p>Reglas básicas, el saque, las paredes y cómo se cuentan los puntos.</p></a>
+      <a class="tarjeta" href="profesional.html"><h3>🏆 Circuito profesional</h3><p>Premier Padel, los tipos de torneo y lo que estoy viendo ahora.</p></a>
+      <a class="tarjeta" href="galeria.html"><h3>📷 Galería</h3><p>Canchas de pádel de distintas partes del mundo.</p></a>
+      <a class="tarjeta" href="contacto.html"><h3>✉️ Contacto</h3><p>Escríbeme o encuentra dónde jugar.</p></a>
+    </section>
+
+    <section class="bloque">
+      <h2>Por qué me encanta</h2>
+      <p>Me encanta tanto <strong>jugarlo</strong> como <strong>verlo</strong>. Estas son mis razones:</p>
+      <ul id="listaRazones">
+        <li>Es muy social: siempre se juega en pareja.</li>
+        <li>Es fácil empezar y difícil de dominar.</li>
+        <li>Los rebotes en la pared hacen cada punto diferente.</li>
+        <li>Verlo a nivel profesional es un espectáculo.</li>
+      </ul>
+      <form class="fila" id="formRazon">
+        <input type="text" id="nuevaRazon" placeholder="¿Y tú por qué juegas? Escribe una razón" aria-label="Nueva razón">
+        <button class="boton" type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <section class="bloque dos-col">
+      <div>
+        <h2>¿Qué es el pádel?</h2>
+        <p>El pádel es un deporte de raqueta que se juega en parejas, en una cancha más pequeña que la de tenis y rodeada de paredes de cristal y malla. La pelota puede rebotar en las paredes y seguir en juego, lo que hace los puntos largos y muy dinámicos.</p>
+        <a class="enlace" href="el-juego.html">Ver reglas y medidas →</a>
+      </div>
+      <figure class="foto "><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Padel_court.jpg/960px-Padel_court.jpg" alt="Cancha de pádel con su red y malla metálica" loading="lazy"><figcaption>Cancha de pádel con su red y malla metálica. Foto: Samson Ssemakadde · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a></figcaption></figure>
+    </section>
+
+  </main>
+  <footer class="pie">
+    <div class="redes">
+      <span>Compartir:</span>
+      <a class="red" id="shareWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="red" id="shareX" href="#" target="_blank" rel="noopener">X</a>
+      <a class="red" id="shareFb" href="#" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p>Sitio hecho con HTML, CSS y JavaScript para el Checkpoint VIII de Fundamentos de Desarrollo Web · Hybridge. Fotos de <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> con su licencia indicada.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

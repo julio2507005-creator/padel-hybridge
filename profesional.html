@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio sobre el pádel: qué es, reglas, la cancha, el circuito profesional y galería.">
+  <title>Circuito profesional · Mi hobby: el pádel</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="index.html"><span class="pelota" aria-hidden="true"></span>Mi hobby: el pádel</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="menu"><ul><li><a href="index.html">Inicio</a></li><li><a href="el-juego.html">El juego</a></li><li><a href="profesional.html" aria-current="page">Circuito profesional</a></li><li><a href="galeria.html">Galería</a></li><li><a href="contacto.html">Contacto</a></li></ul></nav>
+    <button class="tema-btn" id="temaBtn" aria-label="Cambiar tema">🌙</button>
+  </header>
+  <main>
+
+    <section class="titulo-pagina"><h1>Circuito profesional</h1><p>Así se vive el pádel al más alto nivel.</p></section>
+
+    <section class="bloque dos-col">
+      <div>
+        <h2>Premier Padel</h2>
+        <p>Premier Padel es el circuito profesional oficial, avalado por la Federación Internacional de Pádel. Reúne a las mejores parejas del mundo en torneos por varios países.</p>
+        <h3>Tipos de torneo</h3>
+        <ul>
+          <li><strong>Major:</strong> los torneos más importantes del año.</li>
+          <li><strong>P1:</strong> torneos de alto nivel con muchos puntos para el ranking.</li>
+          <li><strong>P2:</strong> torneos con menos puntos, donde suelen aparecer sorpresas.</li>
+        </ul>
+        <a class="boton" href="https://www.premierpadel.com" target="_blank" rel="noopener">Ir a Premier Padel</a>
+      </div>
+      <figure class="foto "><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Exhibici%C3%B3n_de_padel_en_el_obelisco_-_Premier_Padel_2026_02.jpg/960px-Exhibici%C3%B3n_de_padel_en_el_obelisco_-_Premier_Padel_2026_02.jpg" alt="Exhibición de Premier Padel junto al Obelisco de Buenos Aires" loading="lazy"><figcaption>Exhibición de Premier Padel junto al Obelisco de Buenos Aires. Foto: Fotos GCBA · <a href="https://creativecommons.org/licenses/by/2.5/ar/" target="_blank" rel="noopener">CC BY 2.5 AR</a></figcaption></figure>
+    </section>
+
+    <section class="bloque">
+      <h2>Lo que estoy viendo ahora</h2>
+      <p>En estos días sigo el torneo <strong>P1 de Dubái</strong>. Lo que más llama la atención es que, por primera vez en el año, no participan las parejas número 1 y número 2 del ranking, así que el torneo está más abierto que nunca.</p>
+      <p>¿Cuántos partidos has visto esta temporada? Lleva la cuenta:</p>
+      <div class="fila">
+        <button class="boton" id="botonPartido">Vi un partido</button>
+        <button class="boton secundario" id="botonReiniciar">Reiniciar</button>
+      </div>
+      <p id="contador" class="dato" aria-live="polite">Partidos vistos: 0</p>
+    </section>
+
+    <section class="bloque">
+      <h2>Para saber más</h2>
+      <ul class="enlaces">
+        <li><a href="https://www.premierpadel.com" target="_blank" rel="noopener">Premier Padel</a>: calendario, resultados y ranking.</li>
+        <li><a href="https://www.padelfip.com" target="_blank" rel="noopener">Federación Internacional de Pádel</a>: reglamento y competencias.</li>
+        <li><a href="https://es.wikipedia.org/wiki/P%C3%A1del" target="_blank" rel="noopener">Pádel en Wikipedia</a>: historia del deporte.</li>
+      </ul>
+    </section>
+
+  </main>
+  <footer class="pie">
+    <div class="redes">
+      <span>Compartir:</span>
+      <a class="red" id="shareWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="red" id="shareX" href="#" target="_blank" rel="noopener">X</a>
+      <a class="red" id="shareFb" href="#" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p>Sitio hecho con HTML, CSS y JavaScript para el Checkpoint VIII de Fundamentos de Desarrollo Web · Hybridge. Fotos de <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> con su licencia indicada.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

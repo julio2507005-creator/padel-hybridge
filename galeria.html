@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio sobre el pádel: qué es, reglas, la cancha, el circuito profesional y galería.">
+  <title>Galería · Mi hobby: el pádel</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="index.html"><span class="pelota" aria-hidden="true"></span>Mi hobby: el pádel</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="menu"><ul><li><a href="index.html">Inicio</a></li><li><a href="el-juego.html">El juego</a></li><li><a href="profesional.html">Circuito profesional</a></li><li><a href="galeria.html" aria-current="page">Galería</a></li><li><a href="contacto.html">Contacto</a></li></ul></nav>
+    <button class="tema-btn" id="temaBtn" aria-label="Cambiar tema">🌙</button>
+  </header>
+  <main>
+
+    <section class="titulo-pagina"><h1>Galería</h1><p>Canchas y momentos de pádel en distintas partes del mundo. Haz clic en una foto para verla en grande.</p></section>
+    <section class="galeria" id="galeria"><figure class="foto item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Outdoor_padel_court_Mariestad.jpg/960px-Outdoor_padel_court_Mariestad.jpg" alt="Cancha de pádel al aire libre en Mariestad, Suecia" loading="lazy"><figcaption>Cancha de pádel al aire libre en Mariestad, Suecia. Foto: Ainali · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></figcaption></figure><figure class="foto item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Regent%27s_Park_padel_court%2C_showing_glass_walls_-_geograph.org.uk_-_7406792.jpg/960px-Regent%27s_Park_padel_court%2C_showing_glass_walls_-_geograph.org.uk_-_7406792.jpg" alt="Paredes de cristal de una cancha en Regent’s Park, Londres" loading="lazy"><figcaption>Paredes de cristal de una cancha en Regent’s Park, Londres. Foto: David Hawgood · <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a></figcaption></figure><figure class="foto item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Padel_court.jpg/960px-Padel_court.jpg" alt="Cancha de pádel con su red y malla metálica" loading="lazy"><figcaption>Cancha de pádel con su red y malla metálica. Foto: Samson Ssemakadde · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a></figcaption></figure><figure class="foto item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mobile_padel_court_in_Stockholm_2021_-_01.jpg/960px-Mobile_padel_court_in_Stockholm_2021_-_01.jpg" alt="Cancha móvil de pádel instalada en Estocolmo" loading="lazy"><figcaption>Cancha móvil de pádel instalada en Estocolmo. Foto: Sinikka Halme · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></figcaption></figure><figure class="foto item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Bagartorp_Padelbana_1000_Solnabilder.jpg/960px-Bagartorp_Padelbana_1000_Solnabilder.jpg" alt="Cancha de pádel en Bagartorp, Solna" loading="lazy"><figcaption>Cancha de pádel en Bagartorp, Solna. Foto: Sniper Zeta · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></figcaption></figure><figure class="foto item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/M%C3%A1quina_dispensadora_de_bolas_de_padel.jpg/960px-M%C3%A1quina_dispensadora_de_bolas_de_padel.jpg" alt="Máquina dispensadora de pelotas de pádel" loading="lazy"><figcaption>Máquina dispensadora de pelotas de pádel. Foto: Triplecaña · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></figcaption></figure><figure class="foto item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Exhibici%C3%B3n_de_padel_en_el_obelisco_-_Premier_Padel_2026_02.jpg/960px-Exhibici%C3%B3n_de_padel_en_el_obelisco_-_Premier_Padel_2026_02.jpg" alt="Exhibición de Premier Padel junto al Obelisco de Buenos Aires" loading="lazy"><figcaption>Exhibición de Premier Padel junto al Obelisco de Buenos Aires. Foto: Fotos GCBA · <a href="https://creativecommons.org/licenses/by/2.5/ar/" target="_blank" rel="noopener">CC BY 2.5 AR</a></figcaption></figure></section>
+    <div class="visor" id="visor" hidden><button class="cerrar" id="cerrarVisor" aria-label="Cerrar">✕</button><img id="visorImg" alt=""><p id="visorTxt"></p></div>
+
+  </main>
+  <footer class="pie">
+    <div class="redes">
+      <span>Compartir:</span>
+      <a class="red" id="shareWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="red" id="shareX" href="#" target="_blank" rel="noopener">X</a>
+      <a class="red" id="shareFb" href="#" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p>Sitio hecho con HTML, CSS y JavaScript para el Checkpoint VIII de Fundamentos de Desarrollo Web · Hybridge. Fotos de <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> con su licencia indicada.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

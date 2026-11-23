@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio sobre el pádel: qué es, reglas, la cancha, el circuito profesional y galería.">
+  <title>Contacto · Mi hobby: el pádel</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="index.html"><span class="pelota" aria-hidden="true"></span>Mi hobby: el pádel</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="menu"><ul><li><a href="index.html">Inicio</a></li><li><a href="el-juego.html">El juego</a></li><li><a href="profesional.html">Circuito profesional</a></li><li><a href="galeria.html">Galería</a></li><li><a href="contacto.html" aria-current="page">Contacto</a></li></ul></nav>
+    <button class="tema-btn" id="temaBtn" aria-label="Cambiar tema">🌙</button>
+  </header>
+  <main>
+
+    <section class="titulo-pagina"><h1>Contacto</h1><p>¿Juegas pádel o quieres empezar? Escríbeme.</p></section>
+
+    <section class="bloque dos-col">
+      <form id="formContacto" novalidate>
+        <label>Nombre<input type="text" id="nombre" required></label>
+        <label>Correo electrónico<input type="email" id="correo" required></label>
+        <label>Tu nivel
+          <select id="nivel">
+            <option>Nunca he jugado</option>
+            <option>Principiante</option>
+            <option>Intermedio</option>
+            <option>Avanzado</option>
+          </select>
+        </label>
+        <label>Mensaje<textarea id="mensaje" rows="5" required></textarea></label>
+        <button class="boton" type="submit">Enviar</button>
+        <p id="respuesta" class="dato" aria-live="polite"></p>
+        <p class="nota">Formulario de práctica: valida los datos con JavaScript, pero no envía información a ningún servidor.</p>
+      </form>
+      <div>
+        <h2>Encuentra dónde jugar</h2>
+        <p>Busca clubes de pádel cerca de ti en el mapa.</p>
+        <iframe class="mapa" title="Mapa de la Ciudad de México" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-99.25%2C19.30%2C-99.05%2C19.50&amp;layer=mapnik"></iframe>
+        <p><a href="https://www.openstreetmap.org/search?query=padel%20Ciudad%20de%20M%C3%A9xico" target="_blank" rel="noopener">Buscar canchas de pádel en OpenStreetMap →</a></p>
+      </div>
+    </section>
+
+  </main>
+  <footer class="pie">
+    <div class="redes">
+      <span>Compartir:</span>
+      <a class="red" id="shareWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="red" id="shareX" href="#" target="_blank" rel="noopener">X</a>
+      <a class="red" id="shareFb" href="#" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p>Sitio hecho con HTML, CSS y JavaScript para el Checkpoint VIII de Fundamentos de Desarrollo Web · Hybridge. Fotos de <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> con su licencia indicada.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
